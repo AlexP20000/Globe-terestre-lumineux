@@ -1,2 +1,96 @@
 ## Le projet ##
+<<<<<<< HEAD
 Le projet consiste ‡ faire un globe terrestre afin de reprÈsenter le rÈchauffement climatique dans la couche d'ozone.
+=======
+Le projet consiste ‡ faire une borne avec 3 boutons poussoirs pouvant enregistrer les appuies sur "Oui", "Non" ou "Ne sait pas" sur une carte SD afin de recueillir des rÈsultats pour une enquÍte de satisfaction.
+
+### Conventions ###
+La carte SD contient 2 fichiers :
+- Fichier de paramÈtrage (Modifiable par le '''gestionnaire''')
+- Fichier d'enregistrement des rÈsultats (Non modifiable par le '''gestionnaire''').
+
+
+### Format des fichiers ###
+#### Fichier paramÈtrage ####
+fichier : '''params.ini''' formatÈ comme suit :
+```
+[configuration]
+; le siteID est votre identifiant comme il vous a ÈtÈ donnÈe par '''l'enquÍteur''', ne le modifiez pas s'il ne vous le demande pas.
+siteID#OpenFactory
+
+; Cette phrase apparaitra dans le fichier rÈsultat ‡ votre questionnaire mais n'est pas visible sur la borne.
+; Il est conseillÈ de dÈfinir ici une phrase courte.
+question#Aimez-vous les artichauds
+```
+
+
+
+#### Fichier csv ####
+Fichier '''YYYMMDD.csv''' (par exemple 20220208.csv) formatÈ comme suit :
+
+
+Exemple d'un fichier 20220208.csv
+
+| ID du site | Timestamp | Question | Oui | Non | Ne sait pas | Niveau Batterie
+| ---------- | --------- | -------- | --- | --- | ----------- | ---------------
+| OpenFactory | 08/02/2022 12:45:52 | Aimez-vous les artichauds | 1 | 0 | 0 | 90%
+| OpenFactory | 08/02/2022 12:45:53 | Aimez-vous les artichauds | 1 | 0 | 0 | 90%
+| OpenFactory | 08/02/2022 12:45:55 | Aimez-vous les artichauds | 0 | 0 | 1 | 90%
+| OpenFactory | 08/02/2022 20:12:15 | Aimez-vous les artichauds | 0 | 1 | 0 | 50%
+
+
+Exemple d'un fichier 20220209.csv
+
+| ID du site | Timestamp | Question | Oui | Non | Ne sait pas | Niveau Batterie
+| ---------- | --------- | -------- | --- | --- | ----------- | ---------------
+| OpenFactory | 09/02/2022 20:12:15 | Aimez-vous les plats gratinÈs | 0 | 1 | 0 | 40%
+| OpenFactory | 09/02/2022 20:12:15 | Aimez-vous les plats gratinÈs | 1 | 0 | 0 | 40%
+| OpenFactory | 09/02/2022 20:12:15 | Aimez-vous les plats gratinÈs | 1 | 0 | 0 | 30%
+
+
+
+## Programmes ##
+### Clignotement des LEDs ###
+Il y a 3 LEDs sur la borne, chacune au-dessus d'un bouton afin d'indiquer que le vote d'un '''utilisateur''' a bien ÈtÈ pris en compte. Il est Ègalement possible d'afficher des alarmes en fonction du clignotement des LEDs.
+
+
+
+| Leds clignotante (une ‡ la fois) | Signification
+|----------------------------------|---------------
+| Vert | tout est OK
+| Rouge | Batterie faible
+| Rouge, Jaune | Pas de carte SD
+| Rouge, Vert | Fichier paramÈtrage non valide.
+| Rouge, Vert, Jaune | Erreur inconnue.
+
+
+
+
+### Algorithme du microcontrÙleur ###
+![Algorithme du microcontrÙleur](./doc/Diagrams.png)
+
+
+fonctionnement :
+* si bouton appuyÈ.
+  * Wake up.
+  * Allumage de la LED du bouton
+  * Lecture "Time + Date" via RTC
+  * Lecture niveau batterie (conversion en %)
+  * Lecture fichier params.ini pour rÈcupÈrer la question + siteID
+  * Ouverture fichier csv : YYYYMMDD.csv en append (Ècriture ‡ la fin)
+  * Formatage et Ècriture la ligne dans le fichier CSV
+  * Pause "anti-rebond".
+* Eteind les LEDs (On Èteint toutes les Leds, sans chercher laquelle est allumÈe).
+
+
+Pour la partie '''Faut-il faire les tests''' voir les possibilitÈs techniques :
+
+# Voir s'il est possible de savoir qu'on vient de mettre sous tension le microcontrÙleur (et non pas qu'on sort d'un Deep sleep).
+Oui, la fonction esp_sleep_get_wakeup_cause() permet de savoir pourquoi l'ESP ‡ rebootÈ : 
+* ESP_SLEEP_WAKEUP_EXT0 : rÈveil de deep sleep ‡ partir d'un  signal extÈrieur (RTC IO)
+* ESP_SLEEP_WAKEUP_EXT1 : rÈveil de deep sleep ‡ partir d'un parmi plusieurs signaux extÈrieurs (RTC IO) (UtilisÈ par la borne)
+* ESP_SLEEP_WAKEUP_TIMER : rÈveil par le timer interne (au bout d'un certain temps
+* ESP_SLEEP_WAKEUP_TOUCHPAD : rÈveil par une touche tactile
+* ESP_SLEEP_WAKEUP_ULP : rÈveil par un programme de l'ULP
+* Si aucune des autres : reboot du ‡ une coupure d'alimentation
+>>>>>>> parent of 79e2eaa (Fichiers de d√©coupe)
