@@ -15,3 +15,15 @@ Paramètres pour la génération de la boite octogonale sur le site https://www.fes
   * Dessous de la base 5mm
   * Assiette 3 épaisseurs de 5 mm (Epaisseur du fil et des ILS)
   * Plat : 5 mm
+
+## Paramétres des découpes laser ##
+Ces paramètres sont valmable pour la laser avec des miroirs propres.
+
+| Matériau | Opération | Power | Speed | Remarque |
+|----------|-----------|------|-------|----------|
+| PMMA 10 mm | Cut | 100 | 10 | prévoir 2 passages|
+| PMMA 10 mm | Mark | 30 | 60 |  |
+| MDF 3 mm | Cut | 100 | 40 | |
+| MDF 3 mm | Mark | 8 | 20 | |
+| CTP Peuplier 5 mm | Cut | 100 | 45 | |
+| CTP Peuplier 5 mm | Mark | 18 | 80 | |
