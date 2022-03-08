@@ -27,3 +27,5 @@ Ces paramètres sont valmable pour la laser avec des miroirs propres.
 | MDF 3 mm | Mark | 8 | 20 | |
 | CTP Peuplier 5 mm | Cut | 100 | 45 | |
 | CTP Peuplier 5 mm | Mark | 18 | 80 | |
+| CTP Peuplier 10 mm | Cut | 100 | 8 | Généralement ça coupe en 1 passage|
+| CTP Peuplier 10 mm | Mark | 20 | 80 | |
