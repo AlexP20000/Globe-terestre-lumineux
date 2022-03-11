@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="8.363874"
-     inkscape:cx="2171.4818"
-     inkscape:cy="401.30925"
+     inkscape:zoom="16.727748"
+     inkscape:cx="2192.4051"
+     inkscape:cy="402.59454"
      inkscape:window-width="3840"
      inkscape:window-height="2081"
      inkscape:window-x="-9"
@@ -126,26 +126,25 @@ SettingsUrl: http://www.festi.info/RegularBox?FingerJoint_angle=90.0&amp;FingerJ
      r="4.8677087"
      transform="rotate(-90)" />
   <rect
-     style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.0999999;stroke-linecap:round;stroke-linejoin:round"
+     style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
      id="rect9589"
-     width="13"
-     height="10"
-     x="577.80969"
-     y="98.769913"
-     ry="1.0845965" />
+     width="12.4"
+     height="9.8999996"
+     x="577.99109"
+     y="98.819916"
+     ry="1.0737505" />
   <g
-     id="g2544"
-     transform="translate(-0.49993896)">
+     id="g907">
     <circle
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
        id="path9693"
-       cx="576.05963"
+       cx="575.55969"
        cy="103.76991"
        r="1.6999999" />
     <circle
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
        id="circle9775"
-       cx="593.55963"
+       cx="592.82245"
        cy="103.76991"
        r="1.6999999" />
   </g>
