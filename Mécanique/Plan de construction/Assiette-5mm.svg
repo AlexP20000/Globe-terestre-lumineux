@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.2002192"
-     inkscape:cx="899.01468"
-     inkscape:cy="1395.97"
+     inkscape:zoom="0.4004384"
+     inkscape:cx="1101.293"
+     inkscape:cy="1247.3829"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="-9"
@@ -119,14 +119,14 @@
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
        id="rect544"
        width="29.99968"
-       height="11"
+       height="10.5"
        x="366.39328"
        y="322.56464" />
     <rect
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
        id="rect626"
        width="30.00021"
-       height="11"
+       height="10.5"
        x="436.39307"
        y="322.56464" />
     <circle
@@ -205,7 +205,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect17673);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="1128.3672"
          y="509.50195"
-         id="tspan1477">J</tspan></text>
+         id="tspan957">J</tspan></text>
     <g
        id="g933"
        transform="translate(-150.64739,-35.679645)">
@@ -363,44 +363,40 @@
         </g>
       </g>
     </g>
-    <g
-       id="g1407"
-       transform="translate(-31.71524,-27.090101)">
-      <ellipse
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
-         id="ellipse2317"
-         cx="746.76038"
-         cy="395.065"
-         rx="146.36771"
-         ry="105.86771" />
-      <ellipse
-         style="fill:none;stroke:#ff0000;stroke-width:0.264583"
-         id="ellipse2327"
-         cx="826.82831"
-         cy="395.06503"
-         rx="15"
-         ry="14.999999" />
-      <ellipse
-         style="fill:none;stroke:#ff0000;stroke-width:0.264583"
-         id="ellipse2329"
-         cx="667.82831"
-         cy="395.06503"
-         rx="15"
-         ry="14.999999" />
-      <rect
-         style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-opacity:1"
-         id="rect1293"
-         width="29.999664"
-         height="11"
-         x="696.76031"
-         y="344.36887" />
-      <rect
-         style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-opacity:1"
-         id="rect1295"
-         width="30.000212"
-         height="11"
-         x="766.76013"
-         y="344.36887" />
-    </g>
+    <ellipse
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       id="ellipse2317"
+       cx="715.04517"
+       cy="367.97491"
+       rx="146.36771"
+       ry="105.86771" />
+    <ellipse
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583"
+       id="ellipse2327"
+       cx="795.1131"
+       cy="367.97495"
+       rx="15"
+       ry="14.999999" />
+    <ellipse
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583"
+       id="ellipse2329"
+       cx="636.1131"
+       cy="367.97495"
+       rx="15"
+       ry="14.999999" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-opacity:1"
+       id="rect1293"
+       width="29.999664"
+       height="10.5"
+       x="665.0451"
+       y="317.27878" />
+    <rect
+       style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-opacity:1"
+       id="rect1295"
+       width="30.000212"
+       height="10.5"
+       x="735.04492"
+       y="317.27878" />
   </g>
 </svg>
