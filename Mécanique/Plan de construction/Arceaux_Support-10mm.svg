@@ -7,7 +7,7 @@
    viewBox="0 0 784.1087 401.70009"
    version="1.1"
    id="svg2928"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    sodipodi:docname="Arceaux_Support-10mm.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,9 +25,9 @@
      showgrid="false"
      inkscape:zoom="1"
      inkscape:cx="1394"
-     inkscape:cy="322.5"
-     inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:cy="802.5"
+     inkscape:window-width="3840"
+     inkscape:window-height="2081"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -42,10 +42,6 @@
        position="230.41504,180.55542"
        orientation="0,-1"
        id="guide694" />
-    <sodipodi:guide
-       position="201.52095,182.54629"
-       orientation="1,0"
-       id="guide696" />
   </sodipodi:namedview>
   <defs
      id="defs2925" />
@@ -70,48 +66,6 @@
       <rect
          style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.252145;stroke-linecap:round;stroke-linejoin:round"
          id="rect796"
-         width="14.735541"
-         height="9.7354136"
-         x="341.22418"
-         y="242.16695" />
-    </g>
-    <g
-       id="g804"
-       inkscape:transform-center-x="57.290993"
-       inkscape:transform-center-y="-56.907866"
-       transform="rotate(-135,128.55446,211.00551)"
-       style="fill:none;stroke:#ff0000">
-      <rect
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
-         id="rect800"
-         width="14.735541"
-         height="9.7354136"
-         x="260.17227"
-         y="242.16695" />
-      <rect
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
-         id="rect802"
-         width="14.735541"
-         height="9.7354136"
-         x="341.22418"
-         y="242.16695" />
-    </g>
-    <g
-       id="g810"
-       inkscape:transform-center-x="-56.907864"
-       inkscape:transform-center-y="-57.290993"
-       transform="rotate(-45,-3.2480144,353.93265)"
-       style="fill:none;stroke:#ff0000">
-      <rect
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
-         id="rect806"
-         width="14.735541"
-         height="9.7354136"
-         x="260.17227"
-         y="242.16695" />
-      <rect
-         style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
-         id="rect808"
          width="14.735541"
          height="9.7354136"
          x="341.22418"
