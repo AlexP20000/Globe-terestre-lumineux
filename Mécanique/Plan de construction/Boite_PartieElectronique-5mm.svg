@@ -6,7 +6,7 @@
    version="1.1"
    id="svg60"
    sodipodi:docname="Boite_PartieElectronique-5mm.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,13 +26,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.957076"
-     inkscape:cx="2172.7544"
-     inkscape:cy="630.5215"
-     inkscape:window-width="3840"
-     inkscape:window-height="2081"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="1.0454842"
+     inkscape:cx="2295.1087"
+     inkscape:cy="440.46575"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg60" />
   <!--
@@ -525,4 +525,40 @@ SettingsUrl: http://www.festi.info/RegularBox?FingerJoint_angle=90.0&amp;FingerJ
      cx="617.43811"
      cy="111.39064"
      r="2.5" />
+  <g
+     inkscape:label="Hershey Text"
+     style="fill:none;stroke:#00ffff;stroke-width:1.98213;stroke-linecap:round;stroke-linejoin:round"
+     id="g2376"
+     transform="matrix(0.51492638,0,0,0.49429886,249.24226,69.017629)">
+    <g
+       transform="translate(581.181,135.773)"
+       id="g2374"
+       style="stroke:#00ffff;stroke-width:1.98213">
+      <path
+         d="M 220,662 V 0 m 0,662 h 284 l 94,-32 32,-32 32,-62 V 441 L 630,378 598,346 504,315 H 220"
+         style="stroke:#00ffff;stroke-width:0.782942in"
+         transform="scale(0.0105833,-0.0105833)"
+         id="path2364" />
+      <path
+         d="M 220,662 V 0 m 0,0 h 378"
+         style="stroke:#00ffff;stroke-width:0.782942in"
+         transform="matrix(0.0105833,0,0,-0.0105833,7.00614,0)"
+         id="path2366" />
+      <path
+         d="M 378,662 126,0 M 378,662 630,0 M 220,220 h 316"
+         style="stroke:#00ffff;stroke-width:0.782942in"
+         transform="matrix(0.0105833,0,0,-0.0105833,12.6788,0)"
+         id="path2368" />
+      <path
+         d="M 346,662 V 0 M 126,662 h 441"
+         style="stroke:#00ffff;stroke-width:0.782942in"
+         transform="matrix(0.0105833,0,0,-0.0105833,18.6795,0)"
+         id="path2370" />
+      <path
+         d="M 220,662 V 0 m 0,662 H 630 M 220,346 H 472 M 220,0 h 410"
+         style="stroke:#00ffff;stroke-width:0.782942in"
+         transform="matrix(0.0105833,0,0,-0.0105833,24.0135,0)"
+         id="path2372" />
+    </g>
+  </g>
 </svg>
