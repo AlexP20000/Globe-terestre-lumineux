@@ -25,7 +25,7 @@ Ces paramètres sont valmable pour la laser avec des miroirs propres.
 
 | Matériau | Opération | Power | Speed | Remarque |
 |----------|-----------|------|-------|----------|
-| PMMA 10 mm | Cut | 100 | 10 | prévoir 2 passages|
+| PMMA 10 mm | Cut | 100 | 5 |  |
 | PMMA 10 mm | Mark | 30 | 60 |  |
 | MDF 3 mm | Cut | 100 | 40 | |
 | MDF 3 mm | Mark | 8 | 20 | |
