@@ -34,7 +34,7 @@ Ces paramètres sont valmable pour la laser avec des miroirs propres.
 | CTP Peuplier 10 mm | Cut | 100 | 8 | Généralement ça coupe en 1 passage|
 | CTP Peuplier 10 mm | Mark | 8 | 20 | |
 
-# Liste des pièces #
+## Liste des pièces ##
 Pour la construction d'un globe il faut assembler :
 
 * 1 arceau 10mm PMMA transparent comprenant :
@@ -58,4 +58,4 @@ Pour la construction d'un globe il faut assembler :
   * 3 ILS
 * 11 plats 5 mm Peuplier 
   * Version FR : 3 rouges, 3 Jaune, 4 vertes
-  * Version UK : 3 Rouges, 4 jaunes, 3 vertes
+  * Version UK (en bleu claire dans le fichier svg) : 3 Rouges, 4 jaunes, 3 vertes
