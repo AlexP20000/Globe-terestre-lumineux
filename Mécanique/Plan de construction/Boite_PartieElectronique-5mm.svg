@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4785379"
-     inkscape:cx="2168.0201"
-     inkscape:cy="426.43478"
+     inkscape:zoom="1.0454842"
+     inkscape:cx="2108.5924"
+     inkscape:cy="551.41914"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -304,27 +304,21 @@ SettingsUrl: http://www.festi.info/RegularBox?FingerJoint_angle=90.0&amp;FingerJ
   <g
      id="g2077"
      transform="translate(-4.0491406e-5,85.030349)">
-    <circle
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+    <path
        id="circle2071"
-       cx="-557.00641"
-       cy="-61.479057"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
        transform="scale(-1)"
-       r="7.5" />
-    <circle
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -549.50641,-61.479057 a 7.5,7.5 0 0 1 -7.5,7.5 7.5,7.5 0 0 1 -7.5,-7.5 7.5,7.5 0 0 1 7.5,-7.5 7.5,7.5 0 0 1 7.5,7.5 z" />
+    <path
        id="circle2073"
-       cx="-546.38867"
-       cy="-61.479057"
-       r="1.1177084"
-       transform="scale(-1)" />
-    <circle
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       transform="scale(-1)"
+       d="m -545.27096,-61.479057 a 1.1177084,1.1177084 0 0 1 -1.11771,1.117708 1.1177084,1.1177084 0 0 1 -1.11771,-1.117708 1.1177084,1.1177084 0 0 1 1.11771,-1.117709 1.1177084,1.1177084 0 0 1 1.11771,1.117709 z" />
+    <path
        id="circle2075"
-       cx="-567.62415"
-       cy="-61.479057"
-       r="1.1177084"
-       transform="scale(-1)" />
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round"
+       transform="scale(-1)"
+       d="m -566.50644,-61.479057 a 1.1177084,1.1177084 0 0 1 -1.11771,1.117708 1.1177084,1.1177084 0 0 1 -1.1177,-1.117708 1.1177084,1.1177084 0 0 1 1.1177,-1.117709 1.1177084,1.1177084 0 0 1 1.11771,1.117709 z" />
   </g>
   <circle
      style="fill:none;stroke:#ff0000;stroke-width:0.2;stroke-opacity:1"
@@ -544,7 +538,7 @@ SettingsUrl: http://www.festi.info/RegularBox?FingerJoint_angle=90.0&amp;FingerJ
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="English"
-     style="display:none">
+     style="display:inline">
     <g
        transform="translate(550.16262,63.132298)"
        id="g1248"
@@ -673,6 +667,41 @@ SettingsUrl: http://www.festi.info/RegularBox?FingerJoint_angle=90.0&amp;FingerJ
            style="stroke-width:0.8362in"
            transform="matrix(0.005,0,0,-0.005,20.475,0)"
            id="path24826" />
+      </g>
+    </g>
+    <g
+       inkscape:label="Hershey Text"
+       style="display:inline;fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round"
+       id="g2125"
+       transform="translate(-30.068531,-1.5875)">
+      <g
+         transform="translate(578.518,138.258)"
+         id="g2123">
+        <path
+           d="M 220,662 V 0 m 0,662 h 284 l 94,-32 32,-32 32,-62 V 441 L 630,378 598,346 504,315 H 220"
+           style="stroke-width:0.762in"
+           transform="scale(0.00548694,-0.00548694)"
+           id="path2113" />
+        <path
+           d="M 220,662 V 0 m 0,0 h 378"
+           style="stroke-width:0.762in"
+           transform="matrix(0.00548694,0,0,-0.00548694,3.63235,0)"
+           id="path2115" />
+        <path
+           d="M 378,662 126,0 M 378,662 630,0 M 220,220 h 316"
+           style="stroke-width:0.762in"
+           transform="matrix(0.00548694,0,0,-0.00548694,6.57335,0)"
+           id="path2117" />
+        <path
+           d="M 346,662 V 0 M 126,662 h 441"
+           style="stroke-width:0.762in"
+           transform="matrix(0.00548694,0,0,-0.00548694,9.68445,0)"
+           id="path2119" />
+        <path
+           d="M 220,662 V 0 m 0,662 H 630 M 220,346 H 472 M 220,0 h 410"
+           style="stroke-width:0.762in"
+           transform="matrix(0.00548694,0,0,-0.00548694,12.4499,0)"
+           id="path2121" />
       </g>
     </g>
   </g>
